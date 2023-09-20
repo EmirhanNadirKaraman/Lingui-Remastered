@@ -1,0 +1,15 @@
+services:
+  nonspacy:
+    build:
+      context: nonspacy
+      dockerfile: Dockerfile
+    ports:
+      - "5000:5000"
+    restart: always
+  spacy:
+    build:
+      context: spacy
+      dockerfile: Dockerfile
+    ports:
+      - "5001:5001"
+    restart: always

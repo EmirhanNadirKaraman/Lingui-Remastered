@@ -1,0 +1,193 @@
+{
+  "version": 1,
+  "paths": {
+    "/search-word": {
+      "name": "/search-word",
+      "lambdaFunction": "searchWord",
+      "permissions": {
+        "setting": "private",
+        "auth": [
+          "create",
+          "read",
+          "update",
+          "delete"
+        ]
+      }
+    },
+    "/list-user-words": {
+      "name": "/list-user-words",
+      "lambdaFunction": "listUserWords",
+      "permissions": {
+        "setting": "private",
+        "auth": [
+          "create",
+          "read",
+          "update",
+          "delete"
+        ]
+      }
+    },
+    "/signup": {
+      "name": "/signup",
+      "lambdaFunction": "signUp",
+      "permissions": {
+        "setting": "protected",
+        "auth": [
+          "create",
+          "read",
+          "update",
+          "delete"
+        ],
+        "guest": [
+          "create",
+          "read",
+          "update",
+          "delete"
+        ]
+      }
+    },
+    "/check-answer": {
+      "name": "/check-answer",
+      "lambdaFunction": "checkAnswer",
+      "permissions": {
+        "setting": "private",
+        "auth": [
+          "create",
+          "read",
+          "update",
+          "delete"
+        ]
+      }
+    },
+    "/delete-user": {
+      "name": "/delete-user",
+      "lambdaFunction": "deleteUser",
+      "permissions": {
+        "setting": "private",
+        "auth": [
+          "create",
+          "read",
+          "update",
+          "delete"
+        ]
+      }
+    },
+    "/get-unknown-sentences": {
+      "name": "/get-unknown-sentences",
+      "lambdaFunction": "getUnknownSentences",
+      "permissions": {
+        "setting": "private",
+        "auth": [
+          "create",
+          "read",
+          "update",
+          "delete"
+        ]
+      }
+    },
+    "/learn-top-words": {
+      "name": "/learn-top-words",
+      "lambdaFunction": "learnTopWords",
+      "permissions": {
+        "setting": "private",
+        "auth": [
+          "create",
+          "read",
+          "update",
+          "delete"
+        ]
+      }
+    },
+    "/learn-word": {
+      "name": "/learn-word",
+      "lambdaFunction": "learnWord",
+      "permissions": {
+        "setting": "private",
+        "auth": [
+          "create",
+          "read",
+          "update",
+          "delete"
+        ]
+      }
+    },
+    "/add-word-to-user": {
+      "name": "/add-word-to-user",
+      "lambdaFunction": "addWordToUser",
+      "permissions": {
+        "setting": "private",
+        "auth": [
+          "create",
+          "read",
+          "update",
+          "delete"
+        ]
+      }
+    },
+    "/add-language-to-user": {
+      "name": "/add-language-to-user",
+      "lambdaFunction": "addLanguageToUser",
+      "permissions": {
+        "setting": "private",
+        "auth": [
+          "create",
+          "read",
+          "update",
+          "delete"
+        ]
+      }
+    },
+    "/videos": {
+      "name": "/videos",
+      "lambdaFunction": "videos",
+      "permissions": {
+        "setting": "private",
+        "auth": [
+          "create",
+          "read",
+          "update",
+          "delete"
+        ]
+      }
+    },
+    "/transcript/{video-id}": {
+      "name": "/transcript/{video-id}",
+      "lambdaFunction": "transcript",
+      "permissions": {
+        "setting": "private",
+        "auth": [
+          "create",
+          "read",
+          "update",
+          "delete"
+        ]
+      }
+    },
+    "/add-video-to-blacklist": {
+      "name": "/add-video-to-blacklist",
+      "lambdaFunction": "addVideoToBlacklist",
+      "permissions": {
+        "setting": "private",
+        "auth": [
+          "create",
+          "read",
+          "update",
+          "delete"
+        ]
+      }
+    },
+    "/tatoeba/get-sentence": {
+      "name": "/tatoeba/get-sentence",
+      "lambdaFunction": "tatoebaGetSentence",
+      "permissions": {
+        "setting": "private",
+        "auth": [
+          "create",
+          "read",
+          "update",
+          "delete"
+        ]
+      }
+    }
+  }
+}

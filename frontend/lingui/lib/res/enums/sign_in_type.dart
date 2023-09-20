@@ -1,0 +1,1 @@
+enum SignInType { google, apple }

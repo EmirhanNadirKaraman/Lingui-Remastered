@@ -1,0 +1,54 @@
+{
+  "project_info": {
+    "project_number": "893936361364",
+    "project_id": "lingui-5c589",
+    "storage_bucket": "lingui-5c589.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:893936361364:android:503b83a023934d8f2cf981",
+        "android_client_info": {
+          "package_name": "com.example.lingui"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "893936361364-hf41emhckrfappabff4g0ma278nkcbl7.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.lingui",
+            "certificate_hash": "d5f1a96c8d7de985b027ca583cc8207d92a610b1"
+          }
+        },
+        {
+          "client_id": "893936361364-cunp26ccgd1foovhba67eojmjj16mkt3.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBnl1oAq5ZEw3Wf0eaURMB2RTy1nKWxYZk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "893936361364-cunp26ccgd1foovhba67eojmjj16mkt3.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "893936361364-6sjth4sklisncuvoppn91qf4degkl93v.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.lingui"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,37 @@
+{
+  "dev": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-lingui-dev-155334-authRole",
+      "UnauthRoleArn": "arn:aws:iam::585399385056:role/amplify-lingui-dev-155334-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::585399385056:role/amplify-lingui-dev-155334-authRole",
+      "Region": "eu-central-1",
+      "DeploymentBucketName": "amplify-lingui-dev-155334-deployment",
+      "UnauthRoleName": "amplify-lingui-dev-155334-unauthRole",
+      "StackName": "amplify-lingui-dev-155334",
+      "StackId": "arn:aws:cloudformation:eu-central-1:585399385056:stack/amplify-lingui-dev-155334/902163a0-c8b0-11ed-b7f9-06c5631f94a6",
+      "AmplifyAppId": "d3cclhulmj159i",
+      "APIGatewayAuthURL": "https://s3.amazonaws.com/amplify-lingui-dev-155334-deployment/amplify-cfn-templates/api/APIGatewayAuthStack.json"
+    },
+    "categories": {
+      "function": {
+        "searchWord": {},
+        "listUserWords": {},
+        "signUp": {},
+        "checkAnswer": {},
+        "deleteUser": {},
+        "getUnknownSentences": {},
+        "learnTopWords": {},
+        "learnWord": {},
+        "addWordToUser": {},
+        "addLanguageToUser": {},
+        "videos": {},
+        "transcript": {},
+        "addVideoToBlacklist": {},
+        "tatoebaGetSentence": {}
+      },
+      "auth": {
+        "lingui": {}
+      }
+    }
+  }
+}
